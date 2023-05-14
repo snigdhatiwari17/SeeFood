@@ -13,6 +13,7 @@
 		F4191F112A0FE7AC00B0DA60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4191F0F2A0FE7AC00B0DA60 /* Main.storyboard */; };
 		F4191F132A0FE7AE00B0DA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4191F122A0FE7AE00B0DA60 /* Assets.xcassets */; };
 		F4191F162A0FE7AE00B0DA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4191F142A0FE7AE00B0DA60 /* LaunchScreen.storyboard */; };
+		F4191F1E2A0FE81B00B0DA60 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F4191F1D2A0FE81B00B0DA60 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F4191F122A0FE7AE00B0DA60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4191F152A0FE7AE00B0DA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4191F172A0FE7AE00B0DA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4191F1D2A0FE81B00B0DA60 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F4191F122A0FE7AE00B0DA60 /* Assets.xcassets */,
 				F4191F142A0FE7AE00B0DA60 /* LaunchScreen.storyboard */,
 				F4191F172A0FE7AE00B0DA60 /* Info.plist */,
+				F4191F1D2A0FE81B00B0DA60 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4191F0E2A0FE7AC00B0DA60 /* ViewController.swift in Sources */,
+				F4191F1E2A0FE81B00B0DA60 /* Inceptionv3.mlmodel in Sources */,
 				F4191F0A2A0FE7AC00B0DA60 /* AppDelegate.swift in Sources */,
 				F4191F0C2A0FE7AC00B0DA60 /* SceneDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H46F5Z8KW7;
@@ -302,6 +307,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = snigdha.SeeFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H46F5Z8KW7;
@@ -330,6 +337,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = snigdha.SeeFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
